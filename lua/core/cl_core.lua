@@ -64,6 +64,7 @@ function AWS.Client:ShowMenu()
     AWS.Client.Frame:SetTitle("")
     AWS.Client.Frame:MakePopup(true)
     AWS.Client.Frame:SetDraggable(false)
+    AWS.Client.Frame:ShowCloseButton(false)
 
     function AWS.Client.Frame:Paint(w, h)
 
