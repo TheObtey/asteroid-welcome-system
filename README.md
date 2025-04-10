@@ -18,12 +18,14 @@ It greets players with a smooth, responsive UI featuring a server logo, avatar i
 
 ## 🧠 Structure
 
+```
 lua/
 ├── autorun/
 │ └── asteroid-welcome-system.lua # Addon init
 ├── core/
 │ ├── cl_core.lua # UI logic
 │ └── cl_imageFetcher.lua # Image download system (client-side)
+```
 
 ---
 
